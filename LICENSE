@@ -1,0 +1,121 @@
+三千AI智能体 商业许可协议
+Sanqian AI Agent Commercial License
+
+版本 / Version: 1.0
+生效日期 / Effective Date: 2026-04-24
+版权所有 / Copyright © 2026 三千AI智能体 项目方 · All Rights Reserved.
+
+----------------------------------------------------------------------
+中文版（具有法律效力的正本 / Binding Version）
+----------------------------------------------------------------------
+
+一、定义
+
+"本软件"：指本仓库内包含的全部源代码、发行包、License 文件、文档、
+          截图、部署脚本、行业模板及一切附属资产。
+"项目方"：指本软件的著作权持有方。
+"授权用户"：指与项目方签订授权协议，取得合法 License 文件的个人或单位。
+"授权域名"：指 License 文件中明确绑定的生产部署域名。
+
+二、三档授权形态
+
+除非另行书面约定，本软件仅以下列三档授权方式对外发放使用权：
+
+1. 授权（不含源码）
+   - 发行包部署方式，授权用户可在一个授权域名上生产运行
+   - 官方提供持续版本更新
+2. 包搭建
+   - 授权 + 项目方代为远程部署上线
+3. 开源源码
+   - 授权用户获得全部源码，可自行二次开发、更换品牌、搭建 SaaS 分站
+   - 仍受本协议条款约束
+
+具体价格、规格、域名数量、权益细节以双方签订的授权协议为准。
+
+三、允许行为
+
+在取得合法 License 文件的前提下，授权用户可以：
+
+1. 在授权域名上部署、运行、维护本软件
+2. 将服务器从一台迁移到另一台（仅绑定域名，不绑定 IP）
+3. 在授权协议允许的范围内，基于开源源码档位做二次开发
+4. 基于本软件对外提供使用或会员订阅服务（不得转售源码本身）
+
+四、禁止行为（重要）
+
+未经项目方书面同意，任何人不得：
+
+1. 公开发布、托管、镜像、重新分发本软件全部或部分源代码
+2. 转售、转让、再许可本软件的授权 License 或源码
+3. 基于本软件搭建与项目方定位相同的竞品 SaaS 对外销售
+4. 绕过、篡改、伪造 License 文件或 RSA 签名校验
+5. 移除或修改本软件中与项目方著作权、商标、品牌相关的标识
+6. 在未获授权的域名上运行本软件
+7. 将本软件用于任何违反中华人民共和国法律法规的用途
+
+五、License 文件与域名绑定
+
+本软件通过 RSA-SHA256 签名 License 文件（license.lic）进行授权校验，
+License 绑定部署域名。更换域名须联系项目方重新签发；服务器迁移不需
+重签。任何绕过或伪造 License 校验的行为均视为严重违约。
+
+六、免责声明
+
+本软件按"现状"（AS-IS）提供，不附带任何明示或默示担保，包括但不
+限于对适销性、特定用途适用性、不侵权的担保。无论任何情况下，项目
+方对使用或无法使用本软件导致的任何直接或间接损失，均不承担责任。
+
+授权用户基于本软件开展的内容生产、商业运营、用户服务等行为，所产
+生的合规义务（含但不限于《人工智能生成合成内容标识办法》、
+等保合规、数据安全、版权合规）由授权用户自行承担。
+
+七、终止
+
+授权用户发生本协议第四条任一禁止行为的，项目方有权立即单方面终止
+授权，License 文件即刻失效，且有权追究相应法律责任。
+
+八、适用法律与争议解决
+
+本协议适用中华人民共和国法律。因本协议产生的任何争议，双方应先行
+友好协商；协商不成的，提交项目方所在地有管辖权的人民法院诉讼解决。
+
+九、商务联系
+
+商务合作、授权购买、域名变更重签请联系项目方授权渠道（以项目官网
+与仓库 README 公示为准）。
+
+----------------------------------------------------------------------
+English Version (for reference only; Chinese version prevails)
+----------------------------------------------------------------------
+
+This software is licensed, not sold. All rights reserved by the copyright
+holder ("Licensor"). Usage of this repository's source code, binaries,
+deployment scripts, and related assets requires a valid License file
+issued by the Licensor.
+
+THREE LICENSE TIERS
+1. License only (binary distribution)
+2. License + Deployment
+3. Source-code License (with rights to modify, re-brand, run SaaS)
+
+PROHIBITED, without prior written consent:
+- Public redistribution of the source code
+- Reselling or sublicensing the license or source
+- Building a competing SaaS with the same positioning for external sale
+- Bypassing or forging License signature/domain validation
+- Removing copyright, trademark, or branding notices
+- Running on non-authorized domains
+- Any illegal use
+
+Domain binding is enforced via RSA-SHA256 signed `license.lic`.
+Server migration within the same bound domain is allowed.
+Domain change requires re-signing.
+
+NO WARRANTY. Software provided AS-IS. Licensor not liable for any
+direct or indirect damages from use or inability to use.
+
+CHINESE LAW governs this agreement. Disputes shall be resolved under
+the jurisdiction of the Licensor's seat of business.
+
+For commercial licensing inquiries, see channels published in the
+project's official site and repository README.

@@ -16,6 +16,8 @@ Thumbs.db
 # 授权文件(绝不上传)
 *.lic
 license*
+# 但 LICENSE 协议文件本身需要上传
+!LICENSE
 
 # 环境变量(绝不上传)
 .env
