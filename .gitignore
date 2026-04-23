@@ -1,0 +1,32 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# 编辑器
+.vscode/
+.idea/
+
+# 临时文件
+*.log
+*.tmp
+
+# 授权文件(绝不上传)
+*.lic
+license*
+
+# 环境变量(绝不上传)
+.env
+.env.*
+!.env.example
+
+# 构建产物
+dist/
+build/
+node_modules/
+
+# 源代码(本仓库仅放文档,不放源码)
+src/
+packages/

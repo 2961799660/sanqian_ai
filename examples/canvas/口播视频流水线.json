@@ -1,0 +1,70 @@
+{
+  "_note": "示例:三千AI智能体 · AI 画布 · 一条脚本自动出口播视频",
+  "_note_2": "本文件为结构示例,仅供理解画布能力,实际节点参数由系统实时生成",
+  "name": "口播视频自动流水线",
+  "description": "脚本 → 配图 → 配音 → 数字人口播视频合成",
+  "version": "v25.3.5",
+  "mode": "sequential",
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "text_processor",
+      "label": "脚本切分",
+      "params": {
+        "input_source": "user_input",
+        "split_by": "sentence",
+        "max_duration_per_segment": 10
+      }
+    },
+    {
+      "id": "n2",
+      "type": "image_generate",
+      "label": "配图生成",
+      "depends_on": ["n1"],
+      "params": {
+        "model": "豆包 Seedream 5.0",
+        "prompt_template": "{{n1.segment_text}},摄影风格,16:9",
+        "count": 1,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "n3",
+      "type": "audio_tts",
+      "label": "配音合成",
+      "depends_on": ["n1"],
+      "params": {
+        "voice": "知性女声",
+        "speed": 1.0,
+        "text_source": "n1.segments"
+      }
+    },
+    {
+      "id": "n4",
+      "type": "digital_avatar",
+      "label": "数字人口型同步",
+      "depends_on": ["n3"],
+      "params": {
+        "avatar_id": "default_female_01",
+        "audio_source": "n3.output",
+        "mode": "half_body"
+      }
+    },
+    {
+      "id": "n5",
+      "type": "video_compose",
+      "label": "视频合成",
+      "depends_on": ["n2", "n4"],
+      "params": {
+        "layout": "picture_in_picture",
+        "main_source": "n4.output",
+        "overlay_source": "n2.output",
+        "subtitle_from": "n1.segments",
+        "output_format": "mp4",
+        "resolution": "1920x1080"
+      }
+    }
+  ],
+  "_usage": "在三千AI智能体画布中导入此 JSON 即可复用此工作流",
+  "_copyright": "© 2026 三千AI智能体 · 示例工作流"
+}
