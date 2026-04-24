@@ -11,7 +11,11 @@
 [![License](https://img.shields.io/badge/license-commercial-orange)]()
 [![Deploy](https://img.shields.io/badge/deploy-10min-success)]()
 
-[**🚀 在线演示**](https://ai1.zijie.lol) &nbsp;·&nbsp; [🎬 演示视频](./videos/demo.mp4) &nbsp;·&nbsp; [📖 完整产品文档](./docs/product.md) &nbsp;·&nbsp; [💬 商务联系](#联系方式)
+[**🚀 在线演示**](https://ai1.zijie.lol) &nbsp;·&nbsp; [🎬 演示视频](https://ai1.zijie.lol/demo.mp4) &nbsp;·&nbsp; [📖 完整产品文档](./docs/product.md) &nbsp;·&nbsp; [💬 商务联系](#联系方式)
+
+<video src="https://ai1.zijie.lol/demo.mp4" controls muted playsinline width="720" poster="./screenshots/02-chat-home.png">
+  您的浏览器不支持内嵌视频，<a href="https://ai1.zijie.lol/demo.mp4">点此查看演示视频</a>。
+</video>
 
 ![主界面](./screenshots/02-chat-home.png)
 
