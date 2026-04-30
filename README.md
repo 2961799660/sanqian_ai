@@ -6,7 +6,7 @@
 
 **AI 画布工作流 · 口播IP运营 · 主流图片视频模型聚合 · 私有化部署**
 
-[![Version](https://img.shields.io/badge/version-v25.3.6-blue)]()
+[![Version](https://img.shields.io/badge/version-v25.3.7-blue)]()
 [![Platform](https://img.shields.io/badge/platform-web%20%7C%20docker-green)]()
 [![License](https://img.shields.io/badge/license-commercial-orange)]()
 [![Deploy](https://img.shields.io/badge/deploy-10min-success)]()

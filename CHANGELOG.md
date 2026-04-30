@@ -4,6 +4,24 @@
 
 ---
 
+## [v25.3.7] - 2026-04-30
+
+### 优化
+- **方案 E 浅色主题全站化**:聊天首页 / chat layout 默认 light(米白 #fafaf8 + 高对比黑字 + 暖琥珀点缀),用户可在 sidebar 切回 dark 并永久记住偏好
+- **sidebar 字色 light 适配**:14 处 `rgba(255,255,255,X)` 硬编码白字在 light 模式下迁移到全局 CSS cascade,sb-section-header / sb-square-entry / sidebar-notice-compact / cv-* / new-chat-btn 都可见
+- **`.hp-main` 主区背景**:从 #f0f4f8 冷蓝白 → #fafaf8 暖米白
+- **`--accent-warm`** 新 design token #d4a574 暖琥珀
+
+### 修复
+- 修复 `body` 背景 `rgb(13,14,16)` 黑色硬编码 dark 残留,加 `html.light body { background: #fafaf8 !important }` 全局兜底
+- 修复 `.ia-card` 边框 `rgba(255,255,255,0.08)` 在 light 下不可见,改 `html.light` cascade 用黑色边
+- 修复 Vue scoped CSS 中 `:global(html.light) .sb-X` 编译丢失 `[data-v-*]` attr 的 cascade 不生效问题(把 light overrides 移到全局 glass-theme.css)
+
+### 已知
+- BuildingAI 部分组件(头像/某些 toast)仍依赖 nuxt-color-mode 默认 token,light 下颜色有偏差,后续逐步替换为 design token
+
+---
+
 ## [v25.3.6] - 2026-04-30
 
 ### 新增
