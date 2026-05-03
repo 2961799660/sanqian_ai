@@ -217,9 +217,15 @@ Aabao 全模态 · Aabao Sora 按次 · Aabao Gemini · ePhone API · ePhone Kli
 
 登录后即进入主对话,左侧 sidebar 一键切换:对话 / 智能体 / 工作台 / 作品广场 / 通知 / 我的创作 / 个人中心。
 
-| 主对话 | 我的创作 | 通知中心 |
+| 主对话 (PC) | 主对话 (H5) | 通知中心 (H5) |
 |---|---|---|
-| ![](./screenshots/02-chat-home.png) | ![](./screenshots/pc-creations.png) | ![](./screenshots/h5-notifications.png) |
+| ![](./screenshots/02-chat-home.png) | ![](./screenshots/h5-chat-home.png) | ![](./screenshots/h5-notifications.png) |
+
+| 我的创作 (PC) | 全网社媒热搜 (H5) | 智能体广场 (H5) |
+|---|---|---|
+| ![](./screenshots/pc-creations.png) | ![](./screenshots/h5-social-trending.png) | ![](./screenshots/h5-agents.png) |
+
+> **输入模式按端自适应**:PC 端展开为「自动 / 对话 / 图片 / 视频 / 助手」5 个独立入口,H5 移动端合并为「自动 / 对话 / 创作 / 助手」4 个,创作模式内部一键切换图片/视频。
 
 ---
 
