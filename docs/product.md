@@ -211,15 +211,11 @@ Aabao 全模态 · Aabao Sora 按次 · Aabao Gemini · ePhone API · ePhone Kli
 
 ## 用户端入口一览
 
-微信一键登录,或账号密码注册:
+微信一键登录,或账号密码注册。登录后即进入主对话,左侧 sidebar 一键切换:对话 / 智能体 / 工作台 / 作品广场 / 通知 / 我的创作 / 个人中心。
 
-![登录页](./screenshots/h5-login.png)
-
-登录后即进入主对话,左侧 sidebar 一键切换:对话 / 智能体 / 工作台 / 作品广场 / 通知 / 我的创作 / 个人中心。
-
-| 主对话 (PC) | 主对话 (H5) | 通知中心 (H5) |
+| 主对话 (PC) | 主对话 (H5) | 工作台 (H5) |
 |---|---|---|
-| ![](./screenshots/02-chat-home.png) | ![](./screenshots/h5-chat-home.png) | ![](./screenshots/h5-notifications.png) |
+| ![](./screenshots/02-chat-home.png) | ![](./screenshots/h5-chat-home.png) | ![](./screenshots/h5-workbench.png) |
 
 | 我的创作 (PC) | 全网社媒热搜 (H5) | 智能体广场 (H5) |
 |---|---|---|
