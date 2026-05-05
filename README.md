@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/badge/license-commercial-orange)]()
 [![Deploy](https://img.shields.io/badge/deploy-10min-success)]()
 
-[**🚀 在线演示**](https://ai1.zijie.lol) &nbsp;·&nbsp; [🎬 演示视频](https://ai1.zijie.lol/demo.mp4) &nbsp;·&nbsp; [📖 完整产品介绍](./docs/product.md) &nbsp;·&nbsp; [💼 代理加盟方案](./docs/agent.md) &nbsp;·&nbsp; [💬 商务联系](#联系方式)
+[**🚀 在线演示**](https://ai1.zijie.lol) &nbsp;·&nbsp; [🎬 演示视频](https://ai1.zijie.lol/demo.mp4) &nbsp;·&nbsp; [📖 完整产品介绍](./docs/product.md) &nbsp;·&nbsp; [💬 商务联系](#联系方式)
 
 > 🧪 **演示账号**:`demo` / `Demo123456` &nbsp;·&nbsp; 进 https://ai1.zijie.lol 直接体验
 
