@@ -11,7 +11,9 @@
 [![License](https://img.shields.io/badge/license-commercial-orange)]()
 [![Deploy](https://img.shields.io/badge/deploy-10min-success)]()
 
-[**🚀 在线演示**](https://ai1.zijie.lol) &nbsp;·&nbsp; [🎬 演示视频](https://ai1.zijie.lol/demo.mp4) &nbsp;·&nbsp; [📖 完整产品介绍](./docs/product.md) &nbsp;·&nbsp; [💬 商务联系](#联系方式)
+[**🌟 产品在线展示**](https://ai1.zijie.lol/landing/#showcase) &nbsp;·&nbsp; [🚀 在线演示](https://ai1.zijie.lol) &nbsp;·&nbsp; [🎬 演示视频](https://ai1.zijie.lol/demo.mp4) &nbsp;·&nbsp; [📖 完整产品介绍](./docs/product.md) &nbsp;·&nbsp; [💬 商务联系](#联系方式)
+
+> 🌟 **新版产品落地页:** <https://ai1.zijie.lol/landing/#showcase> — 16 个 AI 自动生成视频实拍展示 · 暖琥珀+紫色编辑级风格 · 5 秒看清三千AI 是什么
 
 > 🧪 **演示账号**:`demo` / `Demo123456` &nbsp;·&nbsp; 进 https://ai1.zijie.lol 直接体验
 
