@@ -144,15 +144,78 @@ OpenAI 最新一代图像模型,**一个模型同时覆盖文生图 / 图生图 
 
 社区共建 + 官方持续上新,登录即用,无需配置。
 
-#### 工具智能体
+#### 工具智能体(NEW · 实拍演示)
 
 | 智能体 | 能力 | 标签 |
 |---|---|---|
 | 🎬 **智能视频** | 文字描述 + (可选)风格素材,一键生成 9:16 短视频。**有素材=保留风格 · 无素材=纯创意** | `AI 视频` |
 | 🛍️ **电商一键带货** | 商品主图 → 自动生成带货视频。可选「带模特」模式上传模特图,自动展示带货效果 | `电商` `带货` |
+| 🎞️ **故事工坊**(v1.0.5 新增) | **一句话生成 75 秒带配音的微动画** —— 6 段视频 + 旁白 + 字幕一键合成 | `故事` `微动画` |
 
 ![智能视频深度页](../screenshots/banners/11-smart-video.jpg)
+
+##### 🎬 智能视频 实拍效果(16 个领域示例)
+
+> 以下视频均由「智能视频 Agent」自动生成 · 9:16 竖版 · 无任何参考素材纯文字创作
+
+<table>
+<tr>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_676137bcd46c2709d5136ac71cde1459.mp4">🏃 都市女孩晨跑日常</a> · <code>健身</code></td>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_450ed52c479965505e28e2c088ac6fe6.mp4">☕ 居家咖啡 vlog 治愈系</a> · <code>生活</code></td>
+</tr>
+<tr>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_9bba6d43bb78884985262a636105ae35.mp4">👗 街拍时尚穿搭</a> · <code>时尚</code></td>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_376198b8d6ba1b80a6815de432cfa605.mp4">🍜 美食探店片段</a> · <code>美食</code></td>
+</tr>
+<tr>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_c8b18e37c45e267eb306559e8c636bc8.mp4">🏔️ 旅行风光 4 秒短片</a> · <code>旅行</code></td>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_df1141d01d44bf9a1750e8f881069be6.mp4">👶 母婴亲子温馨场景</a> · <code>亲子</code></td>
+</tr>
+<tr>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_edd965f73e557b534e520175cd5c6880.mp4">🐱 宠物萌宠日常</a> · <code>萌宠</code></td>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_f1a6f2bbdceb6a6dd579a1818bb72a1b.mp4">🧠 知识科普片段</a> · <code>知识</code></td>
+</tr>
+</table>
+
+> 想看效果? 点上面任一链接(浏览器直接播放,9:16 竖版)。**完整 16 个领域全部演示见 [作品广场](https://ai1.zijie.lol/square)。**
+
 ![电商一键带货深度页](../screenshots/banners/12-ecom-vendor.jpg)
+
+##### 🛍️ 电商一键带货 实拍效果(8 大品类)
+
+> 以下视频均由「电商一键带货 Agent」自动生成 · 商品主图 → 直出带货视频
+
+<table>
+<tr>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_276b1f3eb56eb3ef17919957bde805e3.mp4">💄 美妆护肤上脸效果</a> · <code>美妆</code></td>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_2f6e6141675e721e6d6b7683fd7a8230.mp4">👚 服饰带模特展示</a> · <code>服饰</code></td>
+</tr>
+<tr>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_355f413c25c98464420f4749458a503f.mp4">🛋️ 家居场景化展示</a> · <code>家居</code></td>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_4a566850963f6c0aeb44517e6c0a8409.mp4">🍱 食品开箱试吃</a> · <code>食品</code></td>
+</tr>
+<tr>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_4ffd9038ed9edda25f70708523b205aa.mp4">📱 数码产品演示</a> · <code>3C</code></td>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_6308c54449fdf774c8ed55acecaba1bd.mp4">🍼 母婴用品场景化</a> · <code>母婴</code></td>
+</tr>
+<tr>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_782002e620b28015828fee415b213d2f.mp4">👜 鞋包带货短片</a> · <code>鞋包</code></td>
+<td><a href="https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_89442263142519a333a3a20b3f572b80.mp4">🪥 个护小家电演示</a> · <code>个护</code></td>
+</tr>
+</table>
+
+##### 🎞️ 故事工坊(v1.0.5 新增) · 一句话生成微动画
+
+新一代**「文字 → 故事片」**全自动智能体:
+
+| 输入 | 处理 | 输出 |
+|---|---|---|
+| 一句话故事提示词<br>(如「一只小猫在雪地里玩耍」) | 自动分镜 6 段<br>+ AI 旁白配音<br>+ 自动字幕 | **75 秒带配音字幕的微动画**<br>9:16 / 16:9 双版 |
+
+**接口已上线**(后台 v1.0.5):
+- `POST /api/story-oneshot/jobs` —— 创建任务
+- `GET /api/story-oneshot/jobs` —— 任务列表
+- `GET /api/story-oneshot/jobs/:id` —— 查询进度
 
 #### 操盘手智能体
 
