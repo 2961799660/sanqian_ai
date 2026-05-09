@@ -85,9 +85,9 @@
 | 类型 | 覆盖能力 |
 |---|---|
 | 💬 **LLM 对话** | OpenAI · Anthropic Claude · Google Gemini · 深度求索 · 智谱 GLM · Kimi · 通义千问 · 文心一言 · xAI Grok |
-| 🖼️ **文生图** | 闪绘 · 精绘 · 闪答 · 豆包 Seedream 5.0 · 火山引擎 · 可灵 omni-image |
+| 🖼️ **文生图** | 闪绘 · 精绘 · 闪答 · 豆包 Seedream 5.0 · 可灵 omni-image |
 | 🎥 **文生视频** | 创影 · Sora · Veo · Grok Video · Kling V3 · Kling 动作控制 · 豆包 Seedance 2.0 Pro / 2.0 / 1.x Lite |
-| 🔄 **统一聚合** | 后端聚合 17 个供应商通道(Aabao 全模态 · Aabao Sora 按次 · Aabao Gemini · ePhone API · ePhone Kling · ePhone Sora · 火山引擎 · 智谱 AI · 文心一言 等),同一对话框切换 |
+| 🔄 **统一聚合** | 后端聚合 17 个供应商通道(Aabao 全模态 · Aabao Sora 按次 · Aabao Gemini · ePhone API · ePhone Kling · ePhone Sora · 智谱 AI · 文心一言 等),同一对话框切换 |
 
 ![模型管理 - 17 个供应商一览](./screenshots/pc-admin-models.png)
 
@@ -213,7 +213,7 @@
 
 ### 模型管理 · 17 个供应商统一接入
 
-Aabao 三档(全模态 / Sora 按次 / Gemini 专用)· ePhone 三档(API / Kling / Sora)· 火山引擎 · 智谱 AI · 文心一言 · 等 17 家供应商统一接入,后台可视化开关每个通道、绑定 API Key、配置算力扣费规则。
+Aabao 三档(全模态 / Sora 按次 / Gemini 专用)· ePhone 三档(API / Kling / Sora)· 智谱 AI · 文心一言 · 等 17 家供应商统一接入,后台可视化开关每个通道、绑定 API Key、配置算力扣费规则。
 
 ![模型管理](./screenshots/pc-admin-models.png)
 
