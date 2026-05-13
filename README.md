@@ -27,6 +27,111 @@
 
 ---
 
+## 🚀 我们的产品矩阵 · 4 个垂类工作台
+
+不是一个工具,是面向 4 个不同行业的一整套 AI 工作台 —— 每个站独立部署、独立计费、独立运营,**互相之间不挤资源、不抢算力**。买一份授权,全部解锁。
+
+| 🏷️ 产品 | 适合谁 | 一句话价值 | 在线地址 |
+|---|---|---|---|
+| 🧠 **三千AI 智能体** | 自媒体 · MCN · 内容团队 | 对话 + 生图 + 生视频 + 画布工作流 + 口播 IP 运营,**一个账号管完** | [ai1.zijie.lol](https://ai1.zijie.lol/landing/) |
+| 🎬 **三千AI 视频工坊** | 短视频工作室 · 口播达人 · 批量生产 | 粘抖音/TikTok 链接 → AI 重写 → 数字人合成 → 一键发布,**最快 60s 出片** | [ai2.zijie.lol](https://ai2.zijie.lol/studio/speedai) |
+| 🛒 **三千AI 电商工坊** | 电商卖家 · 带货达人 · 工厂直播 | 上传商品图 → AI 生成模特图 → 一键带货短视频,**不必请模特、不必懂剪辑** | [sp.zijie.lol](https://sp.zijie.lol/) |
+| 🎮 **三千AI 3D 资产工坊** | 游戏 · 电商 · 印刷 | 一句话 30 秒交付可商用 **GLB/FBX/USDZ**,自动绑骨 + 16 种预设动画 | [3d.zijie.lol](https://3d.zijie.lol/) |
+
+<table>
+<tr>
+<td width="50%"><img src="./screenshots/docs-ai1-landing-desktop.png" alt="三千AI 智能体" /></td>
+<td width="50%"><img src="./screenshots/docs-ai2-speedai-desktop.png" alt="三千AI 视频工坊" /></td>
+</tr>
+<tr>
+<td><sub>📌 三千AI 智能体 · 主站全能型工作台</sub></td>
+<td><sub>📌 三千AI 视频工坊 · 短视频垂类专用</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="./screenshots/docs-sp-home-desktop.png" alt="三千AI 电商工坊" /></td>
+<td width="50%"><img src="./screenshots/docs-3d-home-desktop.png" alt="三千AI 3D 资产工坊" /></td>
+</tr>
+<tr>
+<td><sub>📌 三千AI 电商工坊 · 带货内容专用</sub></td>
+<td><sub>📌 三千AI 3D 资产工坊 · 模型生成专用</sub></td>
+</tr>
+</table>
+
+> 💎 **买一份授权 = 4 个站全包**:一份代码,4 个垂类品牌站点,DIY 后台一键改 LOGO/主题/名称,**4 条赛道同时跑**。
+
+---
+
+## 🎬 重点产品:三千AI 视频工坊 (ai2.zijie.lol)
+
+> **粘一条抖音链接,等 60 秒,出一条带数字人口播的成片。** 这不是噱头,是真的 60 秒。
+
+### 它解决什么?
+
+短视频团队每天的痛点不是"灵感"也不是"剪辑",是**重复劳动**:
+
+- ❌ 找对标视频 → 看完 → 抄稿 → 改写 → 找配音 → 剪辑 → 加字幕 → 上传 → 发不同平台
+- ❌ 一条片 2-4 小时,一天最多产 3-5 条,**真正动脑的环节占不到 10%**
+
+**视频工坊把这套流水线压成 60 秒**:
+
+| 步骤 | 你做什么 | AI 做什么 |
+|---|---|---|
+| **01 学习对标** | 粘 1 条抖音链接(或粘原文) | TikHub 拿 metadata + Whisper 完整 ASR |
+| **02 改写文案** | 选模板(爆款口播/IP 大脑/营销文案) | AABAO LLM 按风格改写 + 法务审核(阿里云内容安全) |
+| **03 声音生成** | 选 4 个声线(温柔姐姐/调皮同伴/认真老师/慈祥爷爷) | 阿里云 NLS 实时合成 + 可选**声音克隆**(上传 30s 参考音频) |
+| **04 视频生成** | 选数字人形象 + 是否烧录字幕 | Pixelle workflow + 火山引擎合成 + OSS 出片 |
+
+**全程一键 = 真一键**。粘链接 → 点🚀 一键全流程 → 60-90 秒后,一条 1080×1920 竖屏成片 OSS URL 就到了。
+
+### 6 个 chip · 一个工作台 6 种玩法
+
+<table>
+<tr><th>🎬 数字人口播</th><th>🛒 带货模式</th><th>🎨 文生图</th></tr>
+<tr>
+<td>对标视频 → 改写 → 数字人合成,最经典也最快的一档</td>
+<td>上传商品图 + 卖点 → AI 生成商品讲解视频,带货脚本自动套</td>
+<td>一句话出 4 种主流模型图(Z-image/Flux/Flux2/Qwen)</td>
+</tr>
+<tr><th>🎥 文生视频</th><th>✂️ 智能剪辑</th><th>📖 故事工坊</th></tr>
+<tr>
+<td>纯文字 → AI 视频,适合做创意 hook</td>
+<td>选模板 + 改参数 → 套用现成 workflow 批量出片</td>
+<td>给主题 + 选段数 → AI 生成多场景故事短片(5-15 分钟出片)</td>
+</tr>
+</table>
+
+### H5 完美适配 · 手机直接出片
+
+不只是适配 ——** 整套工作台在手机上是为手机做的**。响应式 + ☰ 抽屉 + 大点击区 + 横向滑 chip。
+
+<table>
+<tr>
+<td width="40%"><img src="./screenshots/docs-ai2-speedai-mobile.png" alt="视频工坊 H5 移动端" /></td>
+<td width="60%">
+
+**手机端关键体验**:
+- ☰ 折叠侧栏,主区域全屏
+- 工作流 chip **横向滑动**,不挤
+- 一键全流程按钮**紫色 gradient**,主 CTA 一眼能看到
+- 每个 step 卡片**单列堆叠**,大字体,大输入框
+- 紫色渐变 step 编号 chip,视觉层级清晰
+- 4 个数字人声线 / 多个 figure 在抽屉里选,不离开主流程
+- **支持手机号验证码登录**(阿里云 SMS),不必跳第三方
+
+</td>
+</tr>
+</table>
+
+### 技术栈(为什么我们快)
+
+- **前端**:Nuxt 4 + Vue 3 静态生成 + PWA-ready,首屏 < 1.5s
+- **后端**:NestJS 11 + BullMQ 异步队列,长任务不阻塞 HTTP
+- **AI 编排**:Python FastAPI 自研 Pixelle pipeline,跑 ComfyKit + RunningHub workflow
+- **存储**:阿里云 OSS + PostgreSQL 17 + pgvector 语义检索
+- **真私有化**:全套 Docker Compose,自己一台机器跑全栈,**数据不出局**
+
+---
+
 ## 一句话介绍
 
 **三千AI智能体是一款面向自媒体和内容团队的一站式 AI 工作台。一个账号集成 OpenAI、Gemini、Claude、豆包、Kimi、Qwen 等顶级模型,支持智能对话、图片生成、视频创作、画布工作台、口播 IP 工作台等能力,PC 与 H5 双端原生适配,支持私有化部署与买断授权。**
